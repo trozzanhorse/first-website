@@ -1,0 +1,84 @@
+*{margin: 0; padding: 0; border: 0; text-decoration: none;}
+
+#headtitle{
+    margin-top: 25px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+}
+
+
+
+body{
+    background-image: url(image/blue.jpg); background-repeat: no-repeat;
+    background-size: 1950px 450px;      
+}
+
+
+#admin-box{
+    background-image: url(imagE/logo.png); 
+    background-repeat: no-repeat; margin: auto; background-position: 50% 0%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 110px auto;
+    width: 550px;
+    height: 520px;
+    padding: 20px;
+    border-bottom: 6px solid rgb(84, 185, 216); border-radius: 10%;  
+    
+}
+
+    #admin-box h1{
+    margin-top: 100px;
+    color: rgb(126, 10, 10);
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 50px;
+    font-family: 'Pacifico', cursive;
+}
+
+input, label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(83, 80, 80);
+    text-align: center;
+    display: block;
+    width: 60%;
+    margin: 5px auto;  
+    }
+
+label{
+    font-size: 20px;
+    line-height: 15px;
+    margin: 10px;
+    font-weight: 600px;
+
+}
+
+input{
+    border: 3px solid;
+    padding: 10px;
+    background-color: transparent;
+    color: rgb(134, 141, 141);
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+input:: ::placeholder{
+    font-weight: bold;
+    color: red;
+        
+}
+
+p{
+    
+    margin: 20px;
+    font-size: 25px;
+    color: maroon;
+    font-family: 'Pacifico', cursive;
+}
+
+input [type="submit"] {
+    width: 50px;
+    background-color: red;
+}
